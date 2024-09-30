@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: currentColor;
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.hidden{
+    display: none;
+}
+.semi-hidden, .semi-hidden:focus{
+    outline: none;
+    border: none;
+    background: none;
+}
