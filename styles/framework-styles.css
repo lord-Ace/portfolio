@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: currentColor;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    position: relative;
+}
+ i{
+    font: 2em sans-serif;
+ }
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sub-heading{
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+.body-text {
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.exception{
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    text-align: left;
+}
+.centered{
+    margin: auto;
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+.semi-hidden,
+.semi-hidden:focus {
+    outline: none;
+    border: none;
+    background: none;
+}

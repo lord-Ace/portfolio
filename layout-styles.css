@@ -1,0 +1,84 @@
+body{ 
+    background: hsl(0, 0%, 10%);
+    color: aliceblue;
+}
+ i{
+    font: 2em sans-serif;
+ }
+.header-child, #PROFILES-HOLDER{
+    flex: 1 1 min(550px, 100%);
+    justify-content: space-between;
+    padding: .5em;
+    height: 5em;
+}
+#nav-container{
+    cursor: pointer;
+    align-self: start;
+    max-width: 25%;
+}
+.small-img{
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    border: 3px solid red;
+}
+.nav{
+    display: block;
+    border: 3px solid red;
+    padding: .5em;
+}
+#heroes{
+  background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPJne_9xE73M9bx0aksGCcIABq_j26IB7MLw&usqp=CAU');
+}
+#intro{
+    border: 3px solid red;
+    width: min(700px, 100%);
+    padding: 1em;
+}
+#about-me, .contact-me{
+    width: min(550px, 100%);
+    padding: .1em;
+    border: 3px solid red;
+    align-self: stretch;
+}
+#my-pic{
+    float: inline-start;
+    height: 7.5em;
+    width: 7em;
+    border: 3px solid red;
+}
+#brag, #testemonies{
+    width: clamp(350px, 350px, 90%);
+    border: 3px solid red;
+    align-self: stretch;
+}
+#skill-list, #skills-display-and-certification, .skillndexp{
+    flex: 1 1 min(450px, 100%);
+    border: 3px solid red;
+    align-self: stretch;
+}
+.project{
+    border: 3px solid red;
+    min-height: 17em;
+    position: relative;
+}
+.project-caption{
+    position: absolute;
+    bottom: 0;
+    padding: .5em;
+    width: 100%;
+}
+@media screen and (min-width: 1000px){
+    #nav-container, #Resume{
+        display: flex;
+    }
+    #projects{
+        display: grid;
+        gap: .5em;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 17em);
+        grid-template-areas: 
+        'software-dev software-dev web-dev web-dev web-dev data-sci'
+        'software-dev software-dev collab  fmc fmc fmc';
+    }
+}
