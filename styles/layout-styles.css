@@ -1,14 +1,11 @@
-<<<<<<< HEAD
 /* body{ 
   background: hsl(0, 0%, 20%);
   color: aliceblue;
 } */
-=======
 body{ 
   background: hsl(0, 0%, 20%);
   color: aliceblue;
 }
->>>>>>> d8af10bd1f7ae5c9716e0b630bdad3d9a8531f3b
  header::before{
    content: "";
    height: 100%;
@@ -18,11 +15,8 @@ body{
    top: 0;
    left: 0;
    z-index: -1;
-<<<<<<< HEAD
    /* background: linear-gradient(to right, red, green, blue); */
-=======
    background: linear-gradient(to right, red, green, blue);
->>>>>>> d8af10bd1f7ae5c9716e0b630bdad3d9a8531f3b
    opacity: .9;
  }
 .header-child{
@@ -30,11 +24,8 @@ body{
     justify-content: space-between;
     padding: .5em;
     height: 5em;
-<<<<<<< HEAD
     /* background: hsl(0, 0%, 20%); */
-=======
     background: hsl(0, 0%, 20%);
->>>>>>> d8af10bd1f7ae5c9716e0b630bdad3d9a8531f3b
 }
 #nav-container{
     cursor: pointer;
@@ -55,22 +46,16 @@ body{
 #heroes{
   z-index: -2;
   padding: 1.5em .9em;
-<<<<<<< HEAD
   /* background: hsl(0, 0%, 15%); */
-=======
   background: hsl(0, 0%, 15%);
->>>>>>> d8af10bd1f7ae5c9716e0b630bdad3d9a8531f3b
 }
 #intro{
     width: min(700px, 100%);
     padding: 1em;
-<<<<<<< HEAD
     /* background: hsl(0, 0%, 20%); */
     /* box-shadow: -4px -4px 7px 7px hsl(0, 0%, 32%), 4px 4px 7px 10px hsl(0, 0%, 8%); */
-=======
     background: hsl(0, 0%, 20%);
     box-shadow: -4px -4px 7px 7px hsl(0, 0%, 32%), 4px 4px 7px 10px hsl(0, 0%, 8%);
->>>>>>> d8af10bd1f7ae5c9716e0b630bdad3d9a8531f3b
     border: .1em solid aliceblue;
     opacity: .8;
 }
@@ -124,21 +109,19 @@ main{
     padding: .5em;
     width: 100%;
 }
-<<<<<<< HEAD
 #message{
   flex: 1 1 min(157px, 100%);
   height: 200px;
-  }
-  .information{
+  
+}
+.information{
     border: 1px solid green;
     border-radius: 100px;
     padding: .5em;
-  }
-=======
+}
 .message-info{
   flex: 1 1 min(275px, 100%);
 }
->>>>>>> d8af10bd1f7ae5c9716e0b630bdad3d9a8531f3b
 footer{
   background: linear-gradient(to bottom, hsl(0, 0%, 7%), hsl(270, 100%, 10%), hsl(210, 100%, 10%), hsl(180, 100%, 10%));
 }
