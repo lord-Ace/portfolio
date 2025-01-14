@@ -1,1 +1,0 @@
-[Django-frameork] (https://youtu.be/F5mRW0jo-U4?si=K0zGKI6IZLfsZuGc)
